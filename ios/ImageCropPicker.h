@@ -18,13 +18,13 @@
 #import "RCTImageLoader.h"
 #endif
 
-#if __has_include("QBImagePicker.h")
-#import "QBImagePicker.h"
-#import "RSKImageCropper.h"
-#else
-#import "QBImagePicker/QBImagePicker.h"
+//#if __has_include("QBImagePicker.h")
+//#import "QBImagePicker.h"
+//#import "RSKImageCropper.h"
+//#else
+#import <QBImagePickerController/QBImagePickerController.h>
 #import <RSKImageCropper/RSKImageCropper.h>
-#endif
+//#endif
 
 #import "UIImage-Resize/UIImage+Resize.h"
 #import "Compression.h"
